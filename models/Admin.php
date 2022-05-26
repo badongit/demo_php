@@ -2,7 +2,7 @@
 
 namespace Models;
 
-include "index.php";
+include_once "Model.php";
 
 class Admin extends Model
 {

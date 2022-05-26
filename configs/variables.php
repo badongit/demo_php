@@ -1,6 +1,5 @@
 <?php
   $username = "root";
   $host = "localhost";
-  $password = "4122001dong";
+  $password = "";
   $dbname = "fashion_store";
-?>

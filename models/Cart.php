@@ -2,7 +2,7 @@
 
 namespace Models;
 
-include "index.php";
+include_once "models/Model.php";
 
 class Cart extends Model
 {

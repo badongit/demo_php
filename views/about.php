@@ -1,13 +1,16 @@
-<h1>about</h1>
 <?php
 
-use Models\Customer as Customer;
+namespace Models;
+// use Models as Models;
+// use Models\Admin as Admin;
 
-include_once "models/Customer.php";
 include_once "configs/db.php";
+include_once "models/index.php";
 
-// $customer = Customer::delete_by_pk($con, 6);
-// // $customer->delete($con);
-// print_r($customer);
+$category = Category::create($con, array("cat_title" => "Laza", "cat_desc" => "Thương hiệu thời trang nổi tiếng ít người biết đến."));
+$category = Category::delete_by_pk($con, 9);
+
+print_r($category);
 
 ?>
+<h1>about</h1>

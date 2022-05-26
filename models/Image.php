@@ -2,7 +2,7 @@
 
 namespace Models;
 
-include "index.php";
+
 
 class Image extends Model
 {
